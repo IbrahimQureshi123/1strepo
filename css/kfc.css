@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   box-sizing: border-box;
+}
+.cards{
+    height: 100vh;
+    width: 100%;
+    background-color: black ; 
+    position: relative;
+
+}
+.kfc{
+    position: absolute;
+    left: 686px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    font-size:50px ;
+}
+
+.cardimage{
+    height: 370px;
+    width: 380px;
+    background-color: brown;
+background-image: url("https://images.kfcpakistan.com/image/1670410323079-image.jpg");
+background-position: center;
+background-size: cover;
+    position: absolute;
+    top: 220px;
+    left: 300px;
+}
+.cardbody{
+    height: 370px;
+    width: 380px;
+    background-color: black;
+    position: absolute;
+    top: 220px;
+    left:700px ;
+   font-size: 30px;
+   font-weight: bold;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.carddisc{
+    font-size: large;
+   position: absolute;
+   color: white;
+   top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.rps{
+    font-size: 30px;
+    position: absolute;
+    top: 150px;
+}
+.button{
+    position: absolute;
+    top: 258px;
+    left: 20px;
+    background-color: rgb(247, 8, 8);
+    color: white;
+    width: 56px;
+    height: 53px;
+    border-radius: 15px; 
+   font-size: 42px;
+}
+.button1{
+    position: absolute;
+    top: 258px;
+    left: 133px;
+    background-color: rgb(247, 8, 8);
+    color: white;
+    width: 56px;
+    height: 53px;
+    border-radius: 15px; 
+   font-size: 47px;
+}
+.abc{
+    position: absolute;
+    top: 267px;
+    left: 94px;
+}
+.add{
+    position: absolute;
+    background-color: rgb(247, 8, 8);
+    color: white;
+    top: 258px;
+    height: 53px;
+    left: 238px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

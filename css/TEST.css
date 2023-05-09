@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: opx;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgb(237, 227, 138);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+.list{
+   font-size: 19px;
+   
+   
+
+}
+
+.list ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;  
+}
+.list ul :hover{
+    background-color:red;
+    border: 5px solid white ;
+}
+.list ul li{
+    list-style-type: none;
+}
+.serch{
+    width: 120%;
+  
+
+}
+.categories :hover{
+    background-color:red;
+    border: 5px solid white ;
+
+}
+
+

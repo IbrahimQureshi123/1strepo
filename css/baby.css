@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.boxs{
+    height: 400px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+
+}
+.box1{
+    height: 100px;
+    width: 30%;
+    background-color: blue;
+ } 
+.box2{
+height: 100px;
+width: 30%;
+background-color: orange;
+flex-shrink: 3;
+flex-basis: 40px;
+
+}
